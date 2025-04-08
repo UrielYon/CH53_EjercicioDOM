@@ -16,3 +16,5 @@ git add .
 git commit -m "mensaje"
 git pusho origin main
 ```
+> Vista previa del index.html
+![Index]

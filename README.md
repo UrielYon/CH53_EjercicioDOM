@@ -17,4 +17,4 @@ git commit -m "mensaje"
 git pusho origin main
 ```
 > Vista previa del index.html
-![Index]
+![Index](https://github.com/UrielYon/CH53_EjercicioDOM/blob/main/images/Captura.PNG)

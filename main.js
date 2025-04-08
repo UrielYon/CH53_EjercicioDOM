@@ -25,5 +25,20 @@ console.log(elementos.item(2));
 
 btnMostrar.addEventListener("click",function(event){
     event.preventDefault(); //No hagas lo que haces por defecto
-    console.log("boton btnModificar presionado");
+    let element = document.createElement("li");
+    element.innerText="Another item";//<li>Another item</li>
+    element.classList.add("list-group-item");
+
+    let element2 = element.cloneNode(true);
+ 
+    
+    
+    
+  
+    // lista.item(0).before(element);
+    // lista.item(0).prepend(element2);
+    lista.item(0).append(element);
+    lista.item(0).after(element2);
+
 });
+
